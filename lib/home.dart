@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 //widgets
-import 'widgets/HomeItem.dart';
+import 'package:login_screen/widgets/HomeItem.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -23,6 +23,7 @@ class HomeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Image.asset('assets/images/logo.png', height: 150, width: 150),
+              // const HomeCarousel(),
               homeItem(),
               homeItem(),
               homeItem(),
